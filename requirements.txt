@@ -1,0 +1,9 @@
+aiohttp
+atlasopenmagic
+matplotlib
+numpy
+pandas
+pyarrow
+requests
+scikit-learn
+uproot

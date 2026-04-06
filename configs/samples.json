@@ -1,0 +1,64 @@
+{
+  "groups": {
+    "normal_train": [
+      "410470",
+      "601497"
+    ],
+    "normal_extended": [
+      "410658",
+      "410659",
+      "601627",
+      "601631"
+    ],
+    "normal_generator_check": [
+      "411233"
+    ],
+    "anomaly_proxy": [
+      "302733",
+      "301333",
+      "523692"
+    ]
+  },
+  "samples": {
+    "410470": {
+      "label": "ttbar",
+      "role": "normal_train"
+    },
+    "601497": {
+      "label": "ttbar single lepton",
+      "role": "normal_train"
+    },
+    "410658": {
+      "label": "t-channel single top",
+      "role": "normal_extended"
+    },
+    "410659": {
+      "label": "t-channel single antitop",
+      "role": "normal_extended"
+    },
+    "601627": {
+      "label": "tW single antitop",
+      "role": "normal_extended"
+    },
+    "601631": {
+      "label": "tW single top",
+      "role": "normal_extended"
+    },
+    "411233": {
+      "label": "alternate-generator ttbar single lepton",
+      "role": "normal_generator_check"
+    },
+    "302733": {
+      "label": "Wprime to tb",
+      "role": "anomaly_proxy"
+    },
+    "301333": {
+      "label": "Zprime to ttbar",
+      "role": "anomaly_proxy"
+    },
+    "523692": {
+      "label": "stop pair to top neutralino",
+      "role": "anomaly_proxy"
+    }
+  }
+}
